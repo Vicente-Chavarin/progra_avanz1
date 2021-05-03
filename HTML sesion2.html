@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>Clase Bootstrap</title>
+    <!-- CSS only -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <style type = "text/css">
+        #label5{
+            color: red !important;
+        }
+        .negritas {
+            font-weight: bold;
+
+        }
+    </style>
+
+</head> <!--Librerias, imagenes, configuracion general-->
+<body> 
+    <div class="container" id="contenedor"> <!--Clase se puede repetir, id no-->
+        <label5 id="label5" class="negritas">LABEL1</label5><br>
+        <label id="label2" class="negritas">LABEL2</labe2><br>
+        <label id="label3" class="negritas">LABEL3</labe3><br>
+    </div>
+    <div class="container" id="contenedor2">
+        <label>Nombre:</label>
+        <input id ="nombre" type= "text" class="form-control" name="">
+        <hr>
+        <button id="boton_saludar" class ="btn bg-dark text-white">Saludar</button>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#boton_saludar").click(function(){
+                    alert("hola!");
+                });
+            });
+        </script>
+</body>
+</html>
