@@ -1,7 +1,2 @@
-cnt = 0
-
-while cnt<10:
-
-    print(cnt)
-
-    cnt += 1
+nom = input("Ingrese su nombre")
+print(nom)

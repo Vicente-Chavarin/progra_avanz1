@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+
 img = cv2.imread("Circulos.jpg")
 output = img.copy()
 
